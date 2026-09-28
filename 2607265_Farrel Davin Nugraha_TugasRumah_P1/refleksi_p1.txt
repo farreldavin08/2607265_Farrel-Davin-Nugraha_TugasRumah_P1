@@ -1,0 +1,33 @@
+1. Jelaskan dengan bahasa Anda sendiri apa perbedaan 
+   antara compiler dan interpreter!
+Compiler menerjemahkan seluruh kode program sekaligus sehingga 
+berlangsung sangat cepat, sedangkan interpreter menerjemahkannya 
+satu persatu sehingga memudahkan proses debugging tapi memerlukan 
+Waktu yang relative cukup lama di bandingkan compiler. 
+
+
+2. Sebutkan dua contoh penerapan bahasa C di bidang 
+   Teknik Elektro yang Anda ketahui atau temukan sendiri 
+   melalui pencarian singkat! 
+digunakan dalam pemrograman mikrokontroler (seperti Arduino, STM32,
+atau ESP32) dan bahasa C juga dimanfaatkan dalam pengembangan firmware 
+perangkat keras seperti instrumen pengukuran digital (misalnya Osiloskop) 
+dan pemrosesan sinyal digital (Digital Signal Processing).
+
+
+3. Mengapa program C selalu membutuhkan fungsi main()?
+   Apa yang terjadi jika fungsi ini tidak ada? 
+main() di gunakan sebagai titik masuk awal agar compiler dan sistem 
+operasi tau di bagian mana harus mulai. jika fungsi ini tidak ada akan 
+muncul eror karena program tidak tau harus mulai pada baris pertama karena 
+tidak adanya titik awal.
+
+
+4. Menurut Anda, mengapa penamaan variabel yang jelas 
+   (deskriptif) penting dalam pemrograman, khususnya untuk 
+   program yang berkaitan dengan pengukuran teknik? 
+penamaan variabel yang jelas (deskriptif) penting dalam pemrograman 
+karena dengan penamaan variabel yang jelas kita dapat langsung mengetahui 
+variable tersebut menyimpan data apa tanpa menebak nebak.dan orang lain 
+yang melihat nya juga bisa langsung tau variable tersebut menyimpan data 
+jenis apa tanpa perlu bertanya tanya karena sudah terdeskriptif.
